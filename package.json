@@ -1,11 +1,11 @@
 {
-  "name": "jsonresume-theme-ah3nry",
+  "name": "jsonresume-theme-eleganto",
   "version": "0.0.1",
-  "description": "ah3nry theme for JSON Resume",
+  "description": "ah3nry eleganto theme for JSON Resume",
   "author": "Andrew Henry",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ah3nry/jsonresume-theme-ah3nry"
+    "url": "https://github.com/ah3nry/jsonresume-theme-eleganto"
   },
   "license": "MIT",
   "dependencies": {
