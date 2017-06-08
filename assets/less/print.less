@@ -1,0 +1,39 @@
+@media print {
+    a[href]:after {
+        content: none !important;
+    }
+
+    .profile-card {
+        text-align: center;
+        min-height: 250px;
+    }
+
+    .profile-pic {
+        display: inline-block;
+        vertical-align: middle;
+        img {
+            border-radius: 50%;
+        }
+    }
+
+    .name-and-profession {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 15px;
+    }
+
+    .contact-details {
+        .detail {
+            .make-xs-column(4);
+            padding: 0;
+        }
+    }
+
+    .floating-nav, .floating-nav-trigger {
+        display: none;
+    }
+
+    .pagebreak {
+        page-break-before: always;
+    }
+}
